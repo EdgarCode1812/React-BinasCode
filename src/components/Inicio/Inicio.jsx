@@ -1,4 +1,5 @@
 import React from 'react'
+import { $ }  from 'react-jquery-plugin'
 import "./Inicio.css"
 
 export default function Inicio() {
@@ -36,6 +37,7 @@ function hideWord($word) {
  singleLetters($('.cd-headline.letters').find('b'));
 
 function singleLetters($words) {
+    
    $words.each(function(){
       var word = $(this),
           letters = word.text().split(''),
