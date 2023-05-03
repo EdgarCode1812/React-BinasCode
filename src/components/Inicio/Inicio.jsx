@@ -67,7 +67,7 @@ useEffect(() => {
                 <div className="col-lg-5">
                     <div className="contenido-banner">
                         <div className="contenedor-img animated animatedFadeInUp fadeInUp">
-                            <img src="assets/img/logoBinas.jpg" alt=""/>
+                            <img src="src/assets/img/logoBinas.jpg" alt=""/>
                         </div>
                         <h1 className='animated animatedFadeInUp fadeInUp'>BINAS CODE</h1><br/>
                         <h2 className='animated animatedFadeInUp fadeInUp'>Si lo puedes imaginar, lo podemos programar...</h2>
