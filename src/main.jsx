@@ -13,12 +13,12 @@ const routes = [
   }
 ];
 
-vehicles.forEach((vehicle) => {
-  routes.push({
-    path: vehicle.name,
-    element: <VehicleView  vehicle={vehicle}/>
-  });
-});
+// vehicles.forEach((vehicle) => {
+//   routes.push({
+//     path: vehicle.name,
+//     element: <VehicleView  vehicle={vehicle}/>
+//   });
+// });
 
 
 

@@ -58,11 +58,11 @@ function singleLetters($words) {
             <div className="row">
                 <div className="col-lg-5">
                     <div className="contenido-banner">
-                        <div className="contenedor-img">
+                        <div className="contenedor-img animated animatedFadeInUp fadeInUp">
                             <img src="src/assets/img/logoBinas.jpg" alt=""/>
                         </div>
-                        <h1>BINAS CODE</h1><br/>
-                        <h2>Si lo puedes imaginar, lo podemos programar...</h2>
+                        <h1 className='animated animatedFadeInUp fadeInUp'>BINAS CODE</h1><br/>
+                        <h2 className='animated animatedFadeInUp fadeInUp'>Si lo puedes imaginar, lo podemos programar...</h2>
                         <div className="redes pt-3">
                             <a href="https://www.facebook.com/LordDanielHernandez/" target="_blank"> <i
                                     className="fa-brands fa-square-facebook redes cursor"></i></a>

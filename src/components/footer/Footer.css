@@ -1,0 +1,180 @@
+
+ footer {
+    background-color: #1E2326;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+} 
+ 
+.wh{
+    width: 100%;
+    margin-top: -10px;
+ }
+
+footer .redes {
+    margin-bottom: 20px;
+}
+
+footer .redes a {
+    text-align: center;
+
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer .arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+a {
+    text-decoration: none;
+  }
+  
+
+
+  
+  .row {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+
+  
+  h4 {
+    margin-bottom: 0.9375rem;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.625rem;
+  }
+  
+  ul li a {
+    color: white;
+    font-size: 1rem;
+  }
+  
+  ul li i {
+    color: #1CB698;
+  }
+  
+  ul li a:hover {
+    color: #1CB698;
+  }
+  
+  ul.social-icons {
+    display: flex;
+    column-gap: 0.625rem;
+  }
+  
+  .social-icons i {
+    color: white;
+  }
+  
+  ul.social-icons li {
+    margin-bottom: 0rem;
+  }
+  
+  ul.social-icons li a {
+    display: grid;
+    place-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: #6faaff;
+  }
+  
+  ul.social-icons li:hover a {
+    background-color: #6fdeff;
+  }
+  
+  .copyright {
+    text-align: center;
+    color: #fff;
+    background-color: #1cb6984f;
+    padding: 0.6rem 0;
+  }
+
+  .con-img{
+    width:100%;
+    text-align: center;
+  }
+
+  .footerImg {
+    border: 5px solid #1CB698;
+    margin-top: -20px;
+    width: 18%;
+    border-radius: 100%;
+}
+  
+  /* Responsive adjustments */
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      margin: 0.4rem 0;
+      width: 100%;
+      padding: 0;
+    }
+  
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    h4 {
+      font-size: 1.3125rem;
+    }
+  
+    p {
+      font-size: 0.9375rem;
+    }
+  
+    ul li a {
+      font-size: 0.9375rem;
+    }
+  
+    ul.social-icons li a {
+      width: 1.875rem;
+      height: 1.875rem;
+    }
+  }
+  
