@@ -10,7 +10,7 @@ export default function Clientes() {
             <h2>También desarrollamos</h2>
             <div className="galeria">
                 <div className="proyecto">
-                    <img src="/assets/img/p1.jpg" alt=""/>
+                    <img src="src/assets/img/p1.jpg" alt=""/>
                     <div className="overlay">
                         <h3>Apps</h3>
                         <p>Moviles</p>
