@@ -32,9 +32,8 @@ export default function BinasNavbar() {
                 <ul>
                     <li><a href="#inicio" >INICIO</a></li>
                     <li><a href="#sobremi" >NOSOTROS</a></li>
-                    <li><a href="#skills" >SKILLS</a></li>
-                    <li><a href="#curriculum" >CURRICULUM</a></li>
-                    <li><a href="#portfolio" >PORTFOLIO</a></li>
+                    <li><a href="#curriculum" >SITIO WEB PERFECTO</a></li>
+                    <li><a href="#paquetes" >PRECIOS</a></li>
                     <li><a href="#contacto" >CONTACTO</a></li>
                 </ul>
             </nav>
