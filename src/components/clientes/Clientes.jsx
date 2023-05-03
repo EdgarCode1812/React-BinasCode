@@ -7,27 +7,27 @@ export default function Clientes() {
     <div>
             <section id="portfolio" className="portfolio">
         <div className="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2>También desarrollamos</h2>
             <div className="galeria">
                 <div className="proyecto">
                     <img src="src/assets/img/p1.jpg" alt=""/>
                     <div className="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Apps</h3>
+                        <p>Moviles</p>
                     </div>
                 </div>
                 <div className="proyecto">
                     <img src="src/assets/img/p2.jpg" alt=""/>
                     <div className="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Implementamos sistema de pagos</h3>
+                        <p>$$</p>
                     </div>
                 </div>
                 <div className="proyecto">
-                    <img src="src/assets/img/p3.jpg" alt=""/>
+                    <img src="src/assets/img/p3.png" alt=""/>
                     <div className="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Cambios o compra de Dominio</h3>
+                        <p>www.dominio.com</p>
                     </div>
                 </div>
                 <div className="proyecto">
@@ -38,17 +38,17 @@ export default function Clientes() {
                     </div>
                 </div>
                 <div className="proyecto">
-                    <img src="src/assets/img/p5.jpg" alt=""/>
+                    <img src="src/assets/img/p5.png" alt=""/>
                     <div className="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                    <h3>Diseño Responsivo</h3>
+                    <p>Movil, tablet, computadora...</p>
                     </div>
                 </div>
                 <div className="proyecto">
-                    <img src="src/assets/img/p6.jpg" alt=""/>
+                    <img src="src/assets/img/p6.jpeg" alt=""/>
                     <div className="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Videojuegos</h3>
+                        <p>2D</p>
                     </div>
                 </div>
             </div>

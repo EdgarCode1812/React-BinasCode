@@ -55,7 +55,7 @@ export default function LineaWeb() {
                             <div className="circulod"></div>
                         </div>
                         <div className="text-center pt-5">
-                             <a className="btn btn-5" href="#" title="borde resplandor">Contrata ahora</a>
+                             <a className="btn btn-5"  href="#paquetes" title="borde resplandor">Contrata ahora</a>
                         </div>
                        
                     </div>

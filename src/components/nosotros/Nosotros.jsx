@@ -27,10 +27,10 @@ export default function Nosotros() {
 
             </p>
 
-            <button>
+           <a href="#contacto"> <button>
                 Contactanos
                 <span className="overlay"></span>
-            </button>
+            </button></a>
             </div>
         </section>
 

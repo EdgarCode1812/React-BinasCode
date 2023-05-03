@@ -26,11 +26,11 @@ export default function Footer() {
 
                         <ul>
 
-                            <li><a href="#"><i className="fa fa-angle-right"></i> Paquetes</a></li>
+                            <li><a href="#paquetes"><i className="fa fa-angle-right"></i> Paquetes</a></li>
 
-                            <li><a href="#"><i className="fa fa-angle-right"></i> Contáctanos</a></li>
+                            <li><a href="#contacto"><i className="fa fa-angle-right"></i> Contáctanos</a></li>
 
-                            <li><a href="#"><i className="fa fa-angle-right"></i> Proyectos</a></li>
+                            <li><a href="#portfolio"><i className="fa fa-angle-right"></i> Desarrollo</a></li>
 
                         </ul>
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { $ }  from 'react-jquery-plugin'
 import "./Inicio.css"
 
@@ -6,49 +6,57 @@ export default function Inicio() {
 
     // Animación del texto
 
-var animationDelay = 2500;
- 
-animateHeadline($('.cd-headline'));
 
-function animateHeadline($headlines) {
-   $headlines.each(function(){
-      var headline = $(this);
-      //trigger animation
-      setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
-      //other checks here ...
-   });
-}
 
-function hideWord($word) {
-    var nextWord = takeNext($word);
-    switchWord($word, nextWord);
-    setTimeout(function(){ hideWord(nextWord) }, animationDelay);
- }
- 
- function takeNext($word) {
-    return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
- }
- 
- function switchWord($oldWord, $newWord) {
-    $oldWord.removeClass('is-visible').addClass('is-hidden');
-    $newWord.removeClass('is-hidden').addClass('is-visible');
- }
+useEffect(() => {
+    var animationDelay = 2500;
 
- singleLetters($('.cd-headline.letters').find('b'));
-
-function singleLetters($words) {
+    animateHeadline(document.querySelectorAll('.cd-headline'));
     
-   $words.each(function(){
-      var word = $(this),
-          letters = word.text().split(''),
-          selected = word.hasClass('is-visible');
-      for (i in letters) {
-         letters[i] = (selected) ? '<i className="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
-      }
-      var newLetters = letters.join('');
-      word.html(newLetters);
-   });
-}
+    function animateHeadline(headlines) {
+       headlines.forEach(function(headline){
+          //trigger animation
+          setTimeout(function(){ hideWord(headline.querySelector('.is-visible')) }, animationDelay);
+          //other checks here ...
+       });
+    }
+    
+    function hideWord(word) {
+        var nextWord = takeNext(word);
+        switchWord(word, nextWord);
+        setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+     }
+     
+     function takeNext(word) {
+        return (!word.isEqualNode(word.parentNode.lastElementChild)) ? word.nextElementSibling : word.parentNode.firstElementChild;
+     }
+     
+     function switchWord(oldWord, newWord) {
+        oldWord.classList.remove('is-visible');
+        oldWord.classList.add('is-hidden');
+        newWord.classList.remove('is-hidden');
+        newWord.classList.add('is-visible');
+     }
+    
+     singleLetters(document.querySelectorAll('.cd-headline.letters b'));
+    
+    function singleLetters(words) {
+        
+       words.forEach(function(word){
+          var letters = word.textContent.split(''),
+              selected = word.classList.contains('is-visible');
+          for (var i in letters) {
+             letters[i] = (selected) ? '<i className="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
+          }
+          var newLetters = letters.join('');
+          word.innerHTML = newLetters;
+       });
+    }
+    
+  }, []);
+ 
+
+
 
   return (
     <div>
@@ -92,12 +100,6 @@ function singleLetters($words) {
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </section>
 
     </div>
