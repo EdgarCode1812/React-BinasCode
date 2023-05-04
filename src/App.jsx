@@ -16,6 +16,9 @@ function App() {
   return  (
   
   <div className="App">
+        <a href="https://api.whatsapp.com/send?phone=2711184201&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float animated animatedFadeInUp fadeInUp" target="_blank">
+     <img src="src/assets/img/icons/whatsapp.png" class="img-w" alt=""/>
+      </a>
     <BinasNavbar/> 
     <Inicio/>
     <Nosotros/>
