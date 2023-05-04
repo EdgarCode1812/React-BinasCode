@@ -13,7 +13,7 @@ export default function Footer() {
                   
                     <div className="col-lg-4">
                         <div className="con-img pb-3">
-                            <img className='footerImg' src="src/assets/img/logoBinas.jpg" alt="" />
+                            <img className='footerImg' src="/img/logoBinas.jpg" alt="" />
                         </div>
 
                         <p>Somos una empresa mexicana de desarrollo web. Enfocada en crear proyectos a tu medida.</p>

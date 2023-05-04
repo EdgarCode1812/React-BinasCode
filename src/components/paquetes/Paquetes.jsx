@@ -14,7 +14,7 @@ export default function Paquetes() {
                 <h4 className="title-paquetes">Basic</h4>
                 <ul className="features">
                     <li className="brief">Basic membership</li>
-                    <li className=""><img src="src/assets/img/icons/monitor.gif" width="16%" alt=""/></li>
+                    <li className=""><img src="/img/icons/monitor.gif" width="16%" alt=""/></li>
                     <li className="price">$69</li>
                     <li>Some great feature</li>
                     <li>Another super feature</li>
@@ -26,7 +26,7 @@ export default function Paquetes() {
                 <h4 className="title-paquetes">Plus</h4>
                 <ul className="features">
                     <li className="brief">Plus membership</li>
-                    <li className=""><img src="src/assets//img/icons/cohete.gif" width="16%" alt=""/></li>
+                    <li className=""><img src="/img/icons/cohete.gif" width="16%" alt=""/></li>
                     <li className="price">$79</li>
                     <li>Some great feature</li>
                     <li>Another super feature</li>
@@ -38,7 +38,7 @@ export default function Paquetes() {
                 <h4 className="title-paquetes">Premium</h4>
                 <ul className="features">
                     <li className="brief">This is really a good deal!</li>
-                    <li className=""><img src="src/assets//img/icons/grafico-de-barras.gif" width="16%" alt=""/></li>
+                    <li className=""><img src="/img/icons/grafico-de-barras.gif" width="16%" alt=""/></li>
                     <li className="price">$89</li>
                     <li>Some great feature</li>
                     <li>Another super feature</li>

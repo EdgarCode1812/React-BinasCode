@@ -26,7 +26,7 @@ export default function BinasNavbar() {
     <div className="contenedor-header">
         <header>
             <div className="logo">
-                <a href="#"><img src="src/assets/img/nombreBinas.jpg" alt="" /></a>
+                <a href="#"><img src="/img/nombreBinas.jpg" alt="" /></a>
             </div>
             <nav id="nav">
                 <ul>

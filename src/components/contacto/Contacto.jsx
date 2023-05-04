@@ -22,7 +22,7 @@ export default function Contacto() {
                 </div>
      
                 <div className="col">
-                    <img src="src/assets/img/ubicacion.png" alt=""/>
+                    <img src="/img/ubicacion.png" alt=""/>
                     <div className="info">
                         <ul>
                             <li>
