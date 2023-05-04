@@ -19,7 +19,7 @@ export default function Paquetes() {
                     <li>Some great feature</li>
                     <li>Another super feature</li>
                     <li>And more...</li>
-                    <li className="buy"><a href="https://api.whatsapp.com/send?phone=2711184201&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank"><button>Contrata Basic</button></a></li>
+                    <li className="buy"><a href="https://api.whatsapp.com/send?phone=2711236028&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20paquete%20Basic." target="_blank"><button>Contrata Basic</button></a></li>
                 </ul>
             </div>
             <div className="promo second">
@@ -31,7 +31,7 @@ export default function Paquetes() {
                     <li>Some great feature</li>
                     <li>Another super feature</li>
                     <li>And more...</li>
-                    <li className="buy"><a href="https://api.whatsapp.com/send?phone=2711184201&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank"><button>Contrata Plus</button></a></li>
+                    <li className="buy"><a href="https://api.whatsapp.com/send?phone=2711236028&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20paquete%20Plus." target="_blank"><button>Contrata Plus</button></a></li>
                 </ul>
             </div>
             <div className="promo third scale">
@@ -43,7 +43,7 @@ export default function Paquetes() {
                     <li>Some great feature</li>
                     <li>Another super feature</li>
                     <li>And more...</li>
-                    <li className="buy"><a href="https://api.whatsapp.com/send?phone=2711184201&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank"><button>Contrata Premium</button></a></li>
+                    <li className="buy"><a href="https://api.whatsapp.com/send?phone=2711236028&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20paquete%20Premium." target="_blank"><button>Contrata Premium</button></a></li>
                 </ul>
             </div>
         </div>

@@ -72,14 +72,12 @@ useEffect(() => {
                         <h1 className='animated animatedFadeInUp fadeInUp'>BINAS CODE</h1><br/>
                         <h2 className='animated animatedFadeInUp fadeInUp'>Si lo puedes imaginar, lo podemos programar...</h2>
                         <div className="redes pt-3">
-                            <a href="https://www.facebook.com/LordDanielHernandez/" target="_blank"> <i
+                            <a href="https://www.facebook.com/profile.php?id=100092163859160" target="_blank"> <i
                                     className="fa-brands fa-square-facebook redes cursor"></i></a>
-                            <a href="https://www.instagram.com/daniel.hernandes.1998/" target="_blank"> <i
+                            <a href="https://instagram.com/binascode?igshid=YmMyMTA2M2Y=" target="_blank"> <i
                                     className="fa-brands fa-square-instagram redes cursor"></i></a>
-                            <a href="https://www.linkedin.com/in/danielcode983/" target="_blank"> <i
-                                    className="fa-brands fa-linkedin redes cursor"></i></a>
-                            <a href="https://github.com/DanielCodexp" target="_blank"> <i
-                                    className="fa-brands fa-github redes cursor"></i></a>
+                            <a href="https://www.tiktok.com/@binascode?fbclid=IwAR0Xlxvp_I5Dyzg5Jwo52MOD20On5llop9ZHz-rsarmrL7CMzedJVbR3WOQ" target="_blank"> <i
+                                    className="fa-brands fa-tiktok redes cursor"></i></a>
                         </div>
                     </div>
                 </div> 
