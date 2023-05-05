@@ -21,7 +21,7 @@ export default function Contacto() {
                                     Enviar Mensaje <i className="fa-solid fa-paper-plane"></i>
                                     <span className="overlay"></span>
                                 </button>
-                                <input type="hidden" name="_next" value="http://127.0.0.1:5173/" />
+                                <input type="hidden" name="_next" value="https://react-binas-code.vercel.app/" />
                                 <input type="hidden" name="_captcha" value="false" />
 
                             </form>
