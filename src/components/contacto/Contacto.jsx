@@ -37,7 +37,7 @@ export default function Contacto() {
                                     </li>
                                     <li>
                                         <i className="fa-solid fa-mobile-screen"></i>
-                                        Llamame: +52 271 124 5170
+                                        Llamame: +52 2711184201
                                     </li>
                                     <li>
                                         <i className="fa-solid fa-envelope"></i>
