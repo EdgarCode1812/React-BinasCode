@@ -8,15 +8,14 @@
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
-    height: 125vh;
+    height: 148vh;
 }
 
 .paquetes h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
-
+    padding: 20px 0 60px;
 }
 .title-paquetes {
     font-size: 30px;
@@ -43,7 +42,6 @@
     text-align: center;
     border-radius: 20px;
 }
-
 @media (min-width: 40em) {
     .promo {
         display: inline;
@@ -118,6 +116,9 @@
 
 .scale button:hover {
     background: #4e8d88;
+}
+.img-cheque{
+    width: 20px;
 }
 
 @media (min-width: 40em) {
